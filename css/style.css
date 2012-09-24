@@ -1,0 +1,190 @@
+@CHARSET "UTF-8";
+/******* GENERAL RESET *******/
+body{
+	background: #CDBFA3;
+	line-height:14px;
+	font-size: 14px;
+	font-family: Tahoma, Arial,  Verdana, Helvetica, sans-serif;
+	margin:20px 0px;
+}
+body#admin{
+	background: #CDBFA3;
+	line-height:12px;
+	font-size: 11px;
+	font-family: Tahoma, Arial,  Verdana, Helvetica, sans-serif;
+	margin:20px 0px;
+}
+html,body{
+
+	text-align: center;
+}
+a{
+	text-decoration: underline;
+	color: #9C8555;
+}
+p{
+	font-size:12px;
+	margin:10px 0px;
+	color: #666;
+}
+p#loginlink{
+	text-align:center;
+	margin-top:100px;
+}
+strong{
+	font-weight: 700;
+}
+/******/
+
+h1{
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.2em;
+	padding-bottom:5px;
+	padding-top:30px;
+	border-bottom: 3px dotted #9C8555;
+	color: #666;
+	margin-bottom: 1em;
+}
+h1 a{
+	text-decoration:none;
+	color: #666;
+}
+
+h3{
+	font-weight: normal;
+	font-size: 12px;
+	color: #9C8555;
+	text-align:right;
+}
+
+h2{
+	font-weight: normal;
+	font-size: 15px;
+	color: #9C8555;
+	text-align:left;
+}
+
+/******* LOGO *******/
+img.logo{
+	display: block;
+	width: 144px;
+	float:right;
+}
+/******* /LOGO  *******/
+/******* EXTERNAL BORDER *******/
+#container{
+	
+	border-radius: 20px 20px 20px 20px;
+}
+/******* /CONTAINER *******/
+/******* CONTAINER *******/
+#container{
+	width: 500px;
+	margin: auto;
+	padding:50px;
+	padding-top:20px;
+	text-align: left;
+	background: #ffffff;
+	border: 10px solid #ddd;
+	border-radius: 20px 20px 20px 20px;
+}
+/******* /CONTAINER *******/
+/******* FORM *******/
+
+
+#signupForm label, #loginForm label {
+	display: block;
+	color: #797979;
+	font-weight: 700;
+	line-height: 1.4em;
+}
+#signupForm input, #loginForm input{
+	width: 220px;
+	padding: 6px;
+	color: #949494;
+	font-family: Arial;
+	font-size: 12px;
+	border: 1px solid #cecece;
+}
+#signupForm input.checkbox{
+	width: 20px;
+	padding: 6px;
+	color: #949494;
+	font-family: Arial,  Verdana, Helvetica, sans-serif;
+	font-size: 11px;
+}
+#signupForm select{
+	margin-right: 8px;
+	margin-left: 8px;
+	color: #949494;
+	font-family: Arial,  Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+}
+#signupForm input.error, #signupForm select.error{
+	background: #f8dbdb;
+	border-color: #e77776;
+}
+#signupForm textarea{
+	width: 550px;
+	height: 80px;
+	padding: 6px;
+	color: #adaeae;
+	font-family: Arial,  Verdana, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: 12px;
+	border: 1px solid #cecece;
+}
+#signupForm textarea.error{
+	background: #f8dbdb;
+	border-color: #e77776;
+}
+#signupForm div{
+	margin-bottom: 15px;
+}
+#signupForm div span, #loginForm div span{
+	margin-left: 10px;
+	color: #b1b1b1;
+	font-size: 11px;
+	font-style: italic;
+}
+#signupForm div span.error{
+	color: #e46c6e;
+}
+#signupForm #send{
+	background: #6f9ff1;
+	color: #fff;
+	font-weight: 700;
+	font-style: normal;
+	border: 0;
+	cursor: pointer;
+}
+#signupForm #send:hover{
+	background: #79a7f1;
+}
+/******* /FORM *******/
+/******* ERRORS *******/
+#commentForm, #loginForm { width: 500px; }
+#commentForm label, #loginForm  label{ width: 250px; }
+#commentForm label.error, #commentForm input.submit { margin-left: 253px; }
+#signupForm { width: 670px; }
+#signupForm label.error{
+	margin-left: 10px;
+	width: auto;
+	display: inline;
+	/*color: #FF6347;*/
+	color: #797979;
+	font-size:11px;
+	font-weight: 100;
+}
+p.perr {
+	margin-left: 10px;
+	width: auto;
+	color: #FF6347;
+	font-size:11px;
+	font-weight: 100;
+}
+#newsletter_topics label.error {
+	display: none;
+	margin-left: 103px;
+}
